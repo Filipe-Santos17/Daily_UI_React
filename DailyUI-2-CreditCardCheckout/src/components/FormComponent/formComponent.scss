@@ -1,0 +1,22 @@
+form{
+  padding-top: 5.375rem ;
+  margin-left: 2.625rem;
+  max-width: 21.625rem;
+
+  .form-one{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.375rem;
+  }
+
+  .form-two{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+
+    input{
+      margin-top: 0.3125rem;
+      width: 100%;
+    }
+  }
+}
