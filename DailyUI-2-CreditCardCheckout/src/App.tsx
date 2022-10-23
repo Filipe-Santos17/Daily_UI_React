@@ -1,10 +1,14 @@
 import FormComponent from "./components/FormComponent/formComponent"
+import CardComponent from "./components/Card/cardComponent"
 
 function App() {
   return (
     <>
       <div className="section-form">
-        <FormComponent />
+        <FormComponent/>
+      </div>
+      <div className="section-card">
+        <CardComponent/>
       </div>
     </>
   )

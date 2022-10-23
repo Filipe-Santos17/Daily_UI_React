@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@import './sass/variables';
+@import './sass/mixins';
+
 *{
   padding: 0;
   margin: 0;
@@ -10,13 +13,29 @@
 
 body{
   scroll-behavior: smooth;
-  font-family: 'Inter', sans-serif;
+  font-family: $inter;
   font-size: 16px;
 
-  .section-form{
-    background: #CDCDCD;
-    height: 100vh;
-    width: 35vw;
+  #root{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem; 
   }
-}
 
+  .section-form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: calc(35vw - 10rem);
+    height: 100vh;
+    background: $bg-form-color;
+  }
+
+  .section-card{
+    display: grid;
+    place-items: center;
+    width: 60vw;
+  }
+
+  @import './sass/responsive';
+}
