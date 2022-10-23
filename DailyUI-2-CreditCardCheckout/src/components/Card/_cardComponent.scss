@@ -1,0 +1,43 @@
+.card {
+  display: flex;
+  flex-direction: column;
+
+  width: calc(30vw - 5rem);
+  height: calc(44vh - 4rem);
+  background-color: $primary-color;
+  color: $white;
+  border-radius: 1rem;
+  transform: scale(1.5);
+  
+  padding-left: 1rem;
+  text-transform: uppercase;
+
+  .chipSvg {
+    width: 60px;
+    height: 60px;
+    margin-top: 5rem;
+  }
+
+  .wifiSvg{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    transform: rotate(45deg);
+    right: 0;
+  }
+
+  &--numbber{
+    font-size: 1.3rem;
+    word-spacing: .5rem;
+  }
+
+  div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &--name{
+    font-size: .675rem;//45 caracteres
+  }
+}

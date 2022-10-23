@@ -26,7 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    width: calc(35vw - 10rem);
+    //width: calc(35vw - 10rem);
     height: 100vh;
     background: $bg-form-color;
   }
@@ -39,3 +39,10 @@ body{
 
   @import './sass/responsive';
 }
+
+@import './components/Button/button.scss';
+@import './components/Card/cardComponent';
+@import './components/FormComponent/formComponent';
+@import './components/InputText/inputText';
+@import './components/Title/title';
+

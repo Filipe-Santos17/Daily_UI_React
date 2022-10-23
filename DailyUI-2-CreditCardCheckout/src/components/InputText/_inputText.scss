@@ -2,13 +2,13 @@
   font-weight: 700;
   font-size: .9375rem;
   line-height: 1.125rem;
-  color: #4B4B4B;
+  color: $label-color;
   margin-bottom: .3125rem;
 }
 
 .input{
   height: 2rem;
-  background: #FFFFFF;
+  background: $white;
   border-radius: .625rem;
   border: 1px solid transparent;
   max-width: 21.625rem;

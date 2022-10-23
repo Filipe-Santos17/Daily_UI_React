@@ -1,5 +1,11 @@
-@media screen and (max-width: 2000px){
+@media (min-width: 2000px){
   .section-form{
+    align-items: center;
     width: 100%;
+
+    form{
+      padding-top: 0;
+      transform: scale(2);
+    }
   }
 }

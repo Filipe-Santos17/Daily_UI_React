@@ -1,5 +1,3 @@
-import "./title.scss"
-
 type Props = {
   children : string
 }

@@ -1,5 +1,4 @@
-import { ButtonHTMLAttributes } from "react"
-import "./button.scss"
+//import { ButtonHTMLAttributes } from "react"
 
 type Props = {
   children : string
